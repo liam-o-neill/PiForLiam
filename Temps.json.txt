@@ -1,0 +1,1 @@
+[{"id":"e4199e76.e288e","type":"function","z":"afdb5610.ef6678","name":"adjustOutside","func":"device=\"Outside\";\nif (msg.payload.slice(0,4)==\"TMPA\"){\n    msg.payload=msg.payload.slice(4,10);\n    msg.topic=device;\n}\nreturn msg;","outputs":1,"noerr":0,"x":319.1667022705078,"y":227.00001430511475,"wires":[["2ab0addd.4dcac2"]]}]
